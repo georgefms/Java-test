@@ -1,3 +1,4 @@
+/* entra em loop, falta achar o erro*/
 import java.util.Scanner;
 public class Primos
 {
