@@ -26,14 +26,14 @@ public static double div(int a, int b){
     double result = a/b;
     return result;  
 }
-/*public static int changea(int a){
+public static int changea(int a){
     a = changea(a);
     return a; //Ainda não funciona
-}*/
-/*public static int changeb(int b){
+}
+public static int changeb(int b){
     b = changeb(b);
     return b; //tbm não 
-}*/
+}
     
 public static boolean main(String args[]){
     Scanner key = new Scanner(System.in);    
@@ -60,8 +60,8 @@ public static boolean main(String args[]){
         System.out.println(div(num1,num2));
         break;
         /*case "trocar":
-        changea(num1);
-        changeb(num2);
+        num1=changea(num1);
+        num2=changeb(num2);
         break;*/
         case "sair":
         return false;
