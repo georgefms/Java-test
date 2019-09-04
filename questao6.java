@@ -1,3 +1,8 @@
+/*Faça uma calculadora que após informado dois valores inteiros apresente um menu de
+opções, sendo: 1-Soma; 2-Subtração, 3-Divisão, 4-Multiplicação; 5-Inserir novos
+números; 6-SAIR. O programa deverá apresentar o resultado da operação escolhida
+pelo usuário e em seguida voltar ao menu para uma próxima operação. */
+// Até então com problemas na função change que deveria trocar os valores recebidos na main.
 import java.util.Scanner;
 public class questao6
 {
@@ -53,10 +58,10 @@ public static boolean main(String args[]){
         case "/":
         System.out.println(div(num1,num2));
         break;
-        case "trocar":
+        /*case "trocar":
         changea(num1);
         changeb(num2);
-        break;
+        break;*/
         case "sair":
         return false;
         default:
