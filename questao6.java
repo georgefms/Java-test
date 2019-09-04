@@ -26,14 +26,15 @@ public static double div(int a, int b){
     double result = a/b;
     return result;  
 }
-public static int changea(int a){
+/*public static int changea(int a){
     a = changea(a);
     return a; //Ainda não funciona
-}
-public static int changeb(int b){
+}*/
+/*public static int changeb(int b){
     b = changeb(b);
     return b; //tbm não 
-}
+}*/
+    
 public static boolean main(String args[]){
     Scanner key = new Scanner(System.in);    
     System.out.println("Primeiro valor: ");
