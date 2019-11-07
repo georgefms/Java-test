@@ -1,0 +1,5 @@
+01. Desenvolva uma a classe chamada Imovel, a qual possuirá como atributos um endereço e um preço. 
+Em seguida, crie uma classe Novo, a qual herda Imovel e possui um adicional no preço, crie os métodos de acesso e impressão deste 
+valor adicional. Após, crie uma classe Velho, que herda Imovel e possui um desconto no preço, crie os métodos de acesso e impressão
+para este desconto. Na classe principal, o programa deverá pedir ao usuário que digite 1 para Imóvel novo e 2 para Imóvel velho.
+Conforme a definição do usuário, o programa deverá imprimir o endereço e valor final do imóvel.
